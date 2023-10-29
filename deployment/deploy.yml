@@ -12,6 +12,5 @@
       service:
         name: docker
         state: started
-      - name: Running container
-        shell: docker run -it -d --name Calculator
-        tejdocker32/calculator
+    - name: Running container
+        shell: docker run -it -d --name Calculator tejdocker32/calculator
