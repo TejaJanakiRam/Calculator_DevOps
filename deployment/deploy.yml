@@ -1,7 +1,7 @@
 ---
 - name: Pull Docker Image of Calculator
   hosts: all
-  vars: 
+  vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: Pull image
@@ -13,4 +13,4 @@
         name: docker
         state: started
     - name: Running container
-        shell: docker run -it -d --name Calculator tejdocker32/calculator
+      shell: docker create -it --name Calculator tejdocker32/calculator
