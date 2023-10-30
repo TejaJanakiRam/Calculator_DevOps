@@ -71,6 +71,7 @@ public class Main {
                 }
             }
         }while(flag == 0);
+        reader.close();
     }
 
     public static double squareRoot(double num){

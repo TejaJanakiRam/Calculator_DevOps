@@ -1,0 +1,8 @@
+2023-10-30 15:20:45.042 [main] INFO  org.example.Main - Executing Factorial function!
+2023-10-30 15:20:45.049 [main] INFO  org.example.Main - Executing naturalLog function!
+2023-10-30 15:20:45.050 [main] INFO  org.example.Main - Executing squareRoot function!
+2023-10-30 15:20:45.050 [main] INFO  org.example.Main - Executing Power function!
+2023-10-30 15:39:53.289 [main] INFO  org.example.Main - Executing Factorial function!
+2023-10-30 15:39:53.305 [main] INFO  org.example.Main - Executing naturalLog function!
+2023-10-30 15:39:53.307 [main] INFO  org.example.Main - Executing squareRoot function!
+2023-10-30 15:39:53.309 [main] INFO  org.example.Main - Executing Power function!
