@@ -1,43 +1,37 @@
 import org.example.Main;
 import org.junit.Assert;
-// import org.junit.Before;
 import org.junit.Test;
 public class CalculatorTest {
-    // private Main cal;
-    // @Before
-    // public void setUp() {
-    //     cal = new Main();
-    // }
+
     @Test
-    public void test_squareRoot() {
-        double val = 16.0;
-        double expectedResult = 4.0;
-        double result = Main.squareRoot(val);
+    public void test_Add() {
+
+        int expectedResult = -4;
+        int result = Main.add(16,-20);
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 
     @Test
-    public void test_factorial() {
-        int a = 5;
-        int expectedResult = 120;
-        int result = Main.factorial(a);
+    public void test_Subtract() {
+
+        int expectedResult = 2;
+        int result = Main.subtract(10,8);
         Assert.assertEquals(expectedResult, result);
     }
 
     @Test
-    public void test_naturalLog() {
-        double a = 2.718;
-        double expectedResult = 1.0;
-        double result = Main.naturalLog(a);
-        Assert.assertEquals(expectedResult, result, 0.2f);
+    public void test_Multiply() {
+        // int a = 2.718;
+        int expectedResult = 65;
+        int result = Main.multiply(13,5);
+        Assert.assertEquals(expectedResult, result, 0.0f);
     }
 
     @Test
-    public void test_power() {
-        double a = 2.0;
-        double b = 5.0;
+    public void test_Power() {
+
         double expectedResult = 32.0;
-        double result = Main.power(a,b);
+        double result = Main.expo(2,5);
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 }
