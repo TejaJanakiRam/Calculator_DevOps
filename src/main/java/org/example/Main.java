@@ -25,9 +25,10 @@ public class Main {
         System.out.println("---------------------");
         System.out.print("Please enter your choice: ");
         // System.out.println("");
-        choice = scanner.nextInt();
-        if(choice==5) flag = 0;
+        
         while(flag==1){
+        choice = scanner.nextInt();
+        if(choice==5) break;
             switch(choice){
                 case 1:  //Addition
                     System.out.println("Please enter two integers: ");
