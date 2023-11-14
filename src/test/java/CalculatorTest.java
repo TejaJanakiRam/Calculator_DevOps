@@ -35,3 +35,4 @@ public class CalculatorTest {
         Assert.assertEquals(expectedResult, result, 0.0f);
     }
 }
+//end of file
