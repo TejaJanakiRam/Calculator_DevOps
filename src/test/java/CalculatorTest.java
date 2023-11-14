@@ -21,7 +21,6 @@ public class CalculatorTest {
 
     @Test
     public void test_Multiply() {
-        // int a = 2.718;
         int expectedResult = 65;
         int result = Main.multiply(13,5);
         Assert.assertEquals(expectedResult, result, 0.0f);

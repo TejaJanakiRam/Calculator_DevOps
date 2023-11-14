@@ -11,3 +11,7 @@
 2023-11-04 23:22:26.786 [main] INFO  org.example.Main - Executing multiplication!
 2023-11-04 23:22:26.788 [main] INFO  org.example.Main - Executing Subtraction!
 2023-11-04 23:22:26.789 [main] INFO  org.example.Main - Executing Addition!
+2023-11-14 16:28:10.271 [main] INFO  org.example.Main - Executing Addition!
+2023-11-14 16:28:10.278 [main] INFO  org.example.Main - Executing multiplication!
+2023-11-14 16:28:10.279 [main] INFO  org.example.Main - Executing Subtraction!
+2023-11-14 16:28:10.281 [main] INFO  org.example.Main - Executing Addition!
